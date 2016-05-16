@@ -1,0 +1,19 @@
+{
+    "name": "crxgames/monolog-pomm",
+    "description": "A handler for Monolog that sends messages to Postgres via a POMM connection",
+    "keywords": ["log", "logging", "monolog", "postgresql", "database", "pomm"],
+    "homepage": "https://github.com/crxgames/monolog-pomm",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cody Mays",
+            "email": "crxgames@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": ">1.4.0"
+    },
+    "autoload": {
+        "psr-4": {"PommPGHandler\\": "src/PommPGHandler"}
+    }
+}
