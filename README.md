@@ -16,7 +16,7 @@ monolog-pomm is available via composer. Just add the following line to your requ
 # Usage
 Just use it as any other Monolog Handler, push it to the stack of your Monolog Logger instance. The Handler however needs some parameters:
 
-- **$pomm** PDO Instance of your database. Pass along the PDO instantiation of your database connection with your database selected.
+- **$pomm** POMM Session instance of your database. Pass along the POMM instantiation of your database connection with your database selected.
 - **$table** The table name where the logs should be stored
 - **$level** can be any of the standard Monolog logging levels. Use Monologs statically defined contexts. _Defaults to Logger::DEBUG_
 - **$bubble** _Defaults to true_
